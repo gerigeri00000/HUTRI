@@ -9,10 +9,10 @@ interface ChartCardProps {
 
 export default function ChartCard({ title, subtitle, children, action }: ChartCardProps) {
   return (
-    <div className="rounded-lg border border-border bg-card p-6 backdrop-blur-glass">
-      <div className="mb-6 flex items-start justify-between">
-        <div>
-          <h3 className="font-heading text-lg font-semibold text-foreground">{title}</h3>
+    <div className="min-w-0 rounded-lg border border-border bg-card p-4 backdrop-blur-glass sm:p-6">
+      <div className="mb-5 flex flex-col items-start justify-between gap-3 sm:mb-6 sm:flex-row">
+        <div className="min-w-0">
+          <h3 className="font-heading text-base font-semibold text-foreground sm:text-lg">{title}</h3>
           {subtitle && (
             <p className="mt-1 font-body text-sm text-muted-foreground">{subtitle}</p>
           )}

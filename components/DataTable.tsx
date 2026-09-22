@@ -15,8 +15,8 @@ interface DataTableProps<T> {
 
 export default function DataTable<T>({ columns, data, emptyMessage = "Tidak ada data" }: DataTableProps<T>) {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full">
+    <div className="-mx-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
+      <table className="w-full min-w-[680px]">
         <thead>
           <tr className="border-b border-border">
             {columns.map((column) => (

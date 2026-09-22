@@ -16,7 +16,7 @@ export default function LaporanPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="font-heading text-3xl font-bold text-foreground">Laporan</h1>
+        <h1 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">Laporan</h1>
         <p className="mt-2 font-body text-muted-foreground">
           Export dan ringkasan laporan monitoring ekonomi
         </p>

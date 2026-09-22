@@ -58,7 +58,7 @@ export default function HotelAkomodasiPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="font-heading text-3xl font-bold text-foreground">
+        <h1 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">
           Hotel & Akomodasi
         </h1>
         <p className="mt-2 font-body text-muted-foreground">
